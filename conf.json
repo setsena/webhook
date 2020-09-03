@@ -1,0 +1,15 @@
+{
+  "deamon": {
+    "master_pid": "tmp/master.pid"
+  },
+  "service": {
+    "listen_ip": "0.0.0.0",
+    "listen_port": "8080",
+    "request_max_length": 5368709120,
+    "access_log": "tmp/access.log"
+  },
+  "webhook_log": "tmp/webhook.log",
+  "repositories": {
+    "setsena/cuprum": "/Users/lichi/code/cuprum"
+  }
+}
