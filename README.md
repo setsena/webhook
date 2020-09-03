@@ -5,7 +5,11 @@ github的webhook是个有用的功能，允许开发人员指定一个服务器�
 本项目通过建立一个HTTP服务，接收来自Gihub的钩子事件，达到对本地项目自动管理的目的。
 目前仅支持更新事件的处理。
 
+
+![](https://github.com/setsena/webhook/raw/master/src/note3.jpg)
+
 ##如何实用webhook
+
 
 **第一步**
 
@@ -23,6 +27,9 @@ php webhook.php start
 
 将http服务的地址填入github的webhooks配置中，地址格式为http://ip:port，可以设置为仅推送push事件（Just the push event.)
 
+![](https://github.com/setsena/webhook/raw/master/src/note1.jpg)
+
+![](https://github.com/setsena/webhook/raw/master/src/note2.jpg)
 
 ##webhook支持的命令
 
