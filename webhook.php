@@ -376,7 +376,6 @@ class SimpleHttpServer
 
 
         //进入主循环
-//我们就吃吃喝喝 轻轻松松过国庆
         while(true){
             $client_sock = socket_accept($this->server_sock);
             $client_ip='';
