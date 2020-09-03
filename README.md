@@ -10,6 +10,11 @@ github的webhook是个有用的功能，允许开发人员指定一个服务器�
 
 ##如何实用webhook
 
+**拓展**
+必须支持pcntl sysvmsg等自带扩展，如果没有请重新编译php
+```
+./configure ....  --enable-pcntl --enable-posix --enable-sysvmsg --enable-sysvsem --enable-sysvshm  
+```
 
 **第一步**
 
